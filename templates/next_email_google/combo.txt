@@ -1,0 +1,2 @@
+This is the next_email_google combination.
+It includes email verification next_email_google.

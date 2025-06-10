@@ -1,0 +1,32 @@
+{
+  "name": "nbd-app",
+  "version": "1.0.0",
+  "description": "CLI to generate auth-ready frontend/backend projects",
+  "bin": {
+    "nbd-app": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nischay/nbd-app.git"
+  },
+  "type": "module",
+  "author": "Nischay Bandodiya",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "auth",
+    "template",
+    "generator",
+    "vite",
+    "react",
+    "node"
+  ],
+  "homepage": "https://github.com/nischay/nbd-app#readme",
+  "bugs": {
+    "url": "https://github.com/nischay/nbd-app/issues"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.10"
+  }
+}
