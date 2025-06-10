@@ -1,12 +1,17 @@
 # nbd-app 🧪
 
-`nbd-app` is a CLI tool to scaffold full-stack authentication starter projects using React, Tailwind, Node.js, Express, and more — with support for email verification and OAuth (Google login).
+**nbd-app** is a CLI tool to scaffold full-stack authentication starter projects using React, Tailwind, Node.js, Express, and more — with support for email verification and OAuth (Google login).
+
+---
 
 ## 🚀 Usage
 
-```bash
+**Run directly (no install needed):**
+```sh
 npx nbd-app
 ```
+
+**❌ Do NOT use:**   ``` npm i nbd-app ```
 
 You'll be prompted to:
 - Enter a project name

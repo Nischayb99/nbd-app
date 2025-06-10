@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nischay/nbd-app.git"
+    "url": "https://github.com/Nischayb99/nbd-app.git"
   },
   "type": "module",
   "author": "Nischay Bandodiya",
@@ -21,9 +21,9 @@
     "react",
     "node"
   ],
-  "homepage": "https://github.com/nischay/nbd-app#readme",
+  "homepage": "https://github.com/Nischayb99/nbd-app#readme",
   "bugs": {
-    "url": "https://github.com/nischay/nbd-app/issues"
+    "url": "https://github.com/Nischayb99/nbd-app/issues"
   },
   "preferGlobal": true,
   "dependencies": {
