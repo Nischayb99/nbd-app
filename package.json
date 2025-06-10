@@ -25,6 +25,7 @@
   "bugs": {
     "url": "https://github.com/nischay/nbd-app/issues"
   },
+  "preferGlobal": true,
   "dependencies": {
     "fs-extra": "^11.1.1",
     "inquirer": "^9.2.10"
