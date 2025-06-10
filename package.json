@@ -1,6 +1,6 @@
 {
   "name": "nbd-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to generate auth-ready frontend/backend projects",
   "bin": {
     "nbd-app": "./cli.js"
