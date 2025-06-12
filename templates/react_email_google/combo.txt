@@ -1,2 +1,0 @@
-// templates/react_email_google/combo.txt
-This is the react_email_google combination. Includes email verification and Google login.

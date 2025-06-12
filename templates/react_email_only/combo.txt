@@ -1,2 +1,0 @@
-// templates/react_email_only/combo.txt
-This is the react_email_only combination. Includes only email verification.
