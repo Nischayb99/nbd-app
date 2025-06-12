@@ -1,6 +1,6 @@
 {
   "name": "nbd-app",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "🚀 CLI tool to scaffold full-stack authentication starter projects with React, Node.js, and multiple auth providers (Email, Google, and more)",
   "bin": {
     "nbd-app": "./cli.js"

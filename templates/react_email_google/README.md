@@ -1,4 +1,4 @@
-# NBD APP – Auth System
+# NBD APP – Email and Google Auth System
 
 A modern, open-source authentication system for your apps.  
 Built with React (Vite), Node.js, Express, MongoDB, JWT, and Google OAuth.  

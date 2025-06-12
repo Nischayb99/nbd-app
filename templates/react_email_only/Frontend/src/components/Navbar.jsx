@@ -10,13 +10,7 @@ const Navbar = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
   };
-
-  const handleLogout = async (e) => {
-    e.preventDefault();
-    await logout();
-    setIsMobileMenuOpen(false);
-  };
-
+  
   // Helper for active link styling
   const isActive = (path) =>
     location.pathname === path

@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Form styles */
+  .form-container {
+    @apply max-w-md mx-auto bg-white p-8 rounded-lg shadow-md;
+  }
+
+  .form-title {
+    @apply text-2xl font-bold mb-6 text-center text-gray-800;
+  }
+
+  .form-input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500;
+  }
+
+  .form-label {
+    @apply block mb-2 text-sm font-medium text-gray-700;
+  }
+
+  .form-button {
+    @apply w-full bg-primary-600 text-white py-2 px-4 rounded-md hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 transition-colors;
+  }
+
+  .form-error {
+    @apply text-red-500 text-sm mt-1;
+  }
+
+  .form-success {
+    @apply text-green-500 text-sm mt-1;
+  }
+
+  /* Alert styles */
+  .alert {
+    @apply p-4 mb-4 rounded-md;
+  }
+
+  .alert-success {
+    @apply bg-green-100 text-green-800;
+  }
+
+  .alert-error {
+    @apply bg-red-100 text-red-800;
+  }
+
+  .alert-info {
+    @apply bg-blue-100 text-blue-800;
+  }
+}
+
+body{
+  background-color: #0b141a;
+  color: #fff;
+}
+
+/* src/index.css me add karo */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #181f2a;
+}
+::-webkit-scrollbar-thumb {
+  background: #31404b;
+  border-radius: 8px;
+}

@@ -21,7 +21,7 @@
 
 **Run directly (recommended):**
 ```bash
-npx nbd-app
+npx nbd-app@latest
 ```
 
 **❌ Don't install globally** _(to always get the latest version)_

@@ -10,7 +10,7 @@ const Navbar = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
   };
-  
+
   // Helper for active link styling
   const isActive = (path) =>
     location.pathname === path
@@ -81,12 +81,6 @@ const Navbar = () => {
                     )}`}
                   >
                     Login
-                  </Link>
-                  <Link
-                    to="/signup"
-                    className="ml-2 px-4 py-2 rounded bg-gradient-to-r from-blue-400 to-cyan-400 text-primary-900 font-bold shadow hover:from-blue-500 hover:to-cyan-500 transition"
-                  >
-                    Sign Up
                   </Link>
                 </>
               )}
@@ -210,13 +204,6 @@ const Navbar = () => {
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Login
-                </Link>
-                <Link
-                  to="/signup"
-                  className="block px-4 py-2 rounded bg-gradient-to-r from-blue-400 to-cyan-400 text-primary-900 font-bold shadow hover:from-blue-500 hover:to-cyan-500 transition"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  Sign Up
                 </Link>
               </>
             )}
